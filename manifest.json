@@ -1,0 +1,32 @@
+{
+  "name": "ROURA CEVASA CFO",
+  "short_name": "CFO App",
+  "description": "Panel de gestión de instalaciones y documentación CFO",
+  "start_url": "./index_v8_completo.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1628",
+  "theme_color": "#006B97",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "permissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "es",
+  "scope": "./"
+}
